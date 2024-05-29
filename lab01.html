@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Battle Ship</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">    <script>
+    </script>
+    <script src="script.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <h1> BATTLESHIP </h1>
+    <div class="container">
+      <div class="battleship-grid grid-user"></div>
+      <div class="battleship-grid grid-computer"></div>
+    </div>
+
+    <div class="container restart">
+        <div class="setup-buttons" id="setup-button">
+            <button id="restart" class="btn">Restart</button> <!-- Restart button is always visible -->
+        </div>
+    </div>
+
+    <div class="container hidden-info">
+      <div class="setup-buttons" id="setup-buttons">
+        <button id="start" class="btn">Start Game</button>
+        <button id="rotate" class="btn">Rotate Ships</button>
+    </div>
+      <h3 id="whose-go" class="info-text">Your Go</h3>
+      <h3 id="info" class="info-text"></h3>
+    </div>
+
+    <div class="container">
+      <div class="grid-display">
+        <div class="ship destroyer-container" draggable="true"><div id="destroyer-0"></div><div id="destroyer-1"></div></div>
+        <div class="ship submarine-container" draggable="true"><div id="submarine-0"></div><div id="submarine-1"></div><div id="submarine-2"></div></div>
+        <div class="ship cruiser-container" draggable="true"><div id="cruiser-0"></div><div id="cruiser-1"></div><div id="cruiser-2"></div></div>
+        <div class="ship battleship-container" draggable="true"><div id="battleship-0"></div><div id="battleship-1"></div><div id="battleship-2"></div><div id="battleship-3"></div></div>
+        <div class="ship carrier-container" draggable="true"><div id="carrier-0"></div><div id="carrier-1"></div><div id="carrier-2"></div><div id="carrier-3"></div><div id="carrier-4"></div></div>
+      </div>
+    </div>
+
+    <audio id="bgSound" src="public/elevator.mp3" preload="auto"></audio>
+    <audio id="hitSound" src="public/wow.mp3" preload="auto"></audio>
+    <audio id="missSound" src="public/bruh.mp3" preload="auto"></audio>
+    <audio id="sinkSound" src="public/bye.mp3" preload="auto"></audio>
+  </body>
+</html>
