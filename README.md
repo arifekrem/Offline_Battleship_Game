@@ -86,5 +86,3 @@ This assignment involves replicating and synchronizing the `EMPLOYEES` table bet
      ```  
 3. **Error Handling**  
    - The `DBMS_SCHEDULER` automation script will fail without DBA privileges. Document this limitation in the lab report.  
-
----
