@@ -7,6 +7,15 @@
 
 ---
 
+## **Group Members**  
+| Student Number | Full Name          |  
+|----------------|--------------------|  
+| 500981017       | Ekrem Yilmaz  |  
+| 500981017       | Mohamed Shrief |  
+| 500189282       | Chris Fontein  |  
+
+--- 
+
 ## **Summary of Implementation**
 This assignment involves replicating and synchronizing the `EMPLOYEES` table between two Oracle instances (Oracle 11g as **DB1** and Oracle 12c as **DB2**). The implementation includes:  
 - **Lab 2:** Manual replication using `MERGE` statements and automation via triggers.  
@@ -79,12 +88,3 @@ This assignment involves replicating and synchronizing the `EMPLOYEES` table bet
    - The `DBMS_SCHEDULER` automation script will fail without DBA privileges. Document this limitation in the lab report.  
 
 ---
-
-## **Group Members**  
-| Student Number | Full Name          |  
-|----------------|--------------------|  
-| 500981017       | Ekrem Yilmaz  |  
-| 500981017       | Mohamed Shrief |  
-| 500189282       | Chris Fontein  |  
-
---- 
