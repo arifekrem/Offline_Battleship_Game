@@ -83,8 +83,8 @@ This assignment involves replicating and synchronizing the `EMPLOYEES` table bet
 ## **Group Members**  
 | Student Number | Full Name          |  
 |----------------|--------------------|  
-| [500981017]       | [Ekrem Yilmaz]  |  
-| [500981017]       | [Mohamed Shrief]|  
+| 500981017       | Ekrem Yilmaz  |  
+| 500981017       | Mohamed Shrief |  
 | []       | [Chris ]  |  
 
 --- 
