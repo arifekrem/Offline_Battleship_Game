@@ -85,6 +85,6 @@ This assignment involves replicating and synchronizing the `EMPLOYEES` table bet
 |----------------|--------------------|  
 | 500981017       | Ekrem Yilmaz  |  
 | 500981017       | Mohamed Shrief |  
-| []       | [Chris ]  |  
+| 500189282       | Chris Fontein  |  
 
 --- 
